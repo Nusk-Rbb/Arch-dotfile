@@ -1,4 +1,4 @@
-!#bin/bash
+!#/bin/bash
 
 # first setup
 sudo pacman -S git fakeroot binutils make gcc
