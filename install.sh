@@ -1,7 +1,8 @@
 !#/bin/bash
 
-# first setup
-sudo pacman -S git fakeroot binutils make gcc
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
+./install_scripts/fish.sh
+./install_scripts/blackarch.sh
+./install_scripts/lazyvim.sh
+./install_scripts/hyprland.sh
+
+sudo pacman -S neofetch
